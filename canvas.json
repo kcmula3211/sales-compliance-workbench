@@ -1,0 +1,75 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "Audit.dc.html": {
+      "expand": "fill",
+      "h": 1100,
+      "is_interactive": true,
+      "title": "04 · 處理紀錄 / Audit trail",
+      "w": 1440,
+      "x": 1520,
+      "y": 1220
+    },
+    "Main.dc.html": {
+      "expand": "fill",
+      "h": 1100,
+      "is_interactive": true,
+      "title": "01 · 復核佇列 / Review queue",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "Review.dc.html": {
+      "expand": "fill",
+      "h": 1100,
+      "is_interactive": true,
+      "title": "02 · 通話復核 / Call review",
+      "w": 1440,
+      "x": 1520,
+      "y": 0
+    },
+    "Submit.dc.html": {
+      "expand": "fill",
+      "h": 1100,
+      "is_interactive": true,
+      "title": "03 · 提交復核 / Submit review",
+      "w": 1440,
+      "x": 0,
+      "y": 1220
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-11-15T09:28:39.894Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {
+    "flow": {
+      "kind": "title1",
+      "maxW": 2960,
+      "text": "從通話證據，到人工決定。 / From evidence to decision.",
+      "w": 240,
+      "x": 0,
+      "y": -280
+    },
+    "guide": {
+      "fill": "gray",
+      "text": "操作示範 / Demo\n\n按 Play 開始互動。\n繁體中文與 English 可即時切換。\n\n001 → 規則 DEMO-02 → 填入示範理由 → 儲存本項。\n完成其餘兩項 → 提交復核 → 查看處理紀錄。\n\n每個畫板均可獨立開始；畫板內的導航保留當前資料。重新載入會重設。\n\n錄音、AI 與紀錄均為示範；沒有連接語音服務。",
+      "w": 370,
+      "x": 3040,
+      "y": 0
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Review.dc.html",
+    "Submit.dc.html",
+    "Audit.dc.html"
+  ],
+  "pages": [],
+  "title": "Cicada 合規復核工作台 / Compliance Review Workbench"
+}
